@@ -1,0 +1,15 @@
+.artwork-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.artwork-card img {
+    max-width: 100%;
+    height: auto;
+}
+#next-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
