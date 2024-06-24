@@ -21,7 +21,7 @@ const displayArtwork = (index) => {
     document.getElementById('artwork-artist').textContent = `Artist: ${artwork.artist_display}`;
     document.getElementById('artwork-date').textContent = `Date: ${artwork.date_display}`;
     document.getElementById('artwork-description').textContent = artwork.thumbnail.alt_text;
-    document.getElementById('place-origin').textContent = artwork.place_of_origin;
+    document.getElementById('place-origin').textContent = `Place:${artwork.place_of_origin}`;
 };
 
 document.getElementById('next-button').addEventListener('click', () => {
